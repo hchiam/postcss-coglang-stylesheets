@@ -30,6 +30,12 @@ For tips, see: https://github.com/postcss/postcss/blob/main/docs/writing-a-plugi
 npm install --save-dev postcss postcss-coglang-stylesheets
 ```
 
+or
+
+```sh
+yarn --dev add postcss postcss-coglang-stylesheets
+```
+
 **Step 2:** Check you project for existed PostCSS config: `postcss.config.js`
 in the project root, `"postcss"` section in `package.json`
 or `postcss` in bundle config.
