@@ -2,7 +2,12 @@
   "name": "postcss-coglang-stylesheets",
   "version": "0.0.0",
   "description": "PostCSS plugin coglang",
-  "keywords": ["postcss", "css", "postcss-plugin", "postcss-coglang-stylesheets"],
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-coglang-stylesheets"
+  ],
   "scripts": {
     "test": "jest --coverage && eslint ."
   },
@@ -30,7 +35,10 @@
       "node": true,
       "es6": true
     },
-    "extends": ["eslint:recommended", "plugin:jest/recommended"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:jest/recommended"
+    ],
     "rules": {
       "jest/expect-expect": "off"
     }
