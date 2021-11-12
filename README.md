@@ -1,10 +1,8 @@
-# postcss-coglang-stylesheets
+# postcss-[coglang](https://github.com/hchiam/cognateLanguage)-stylesheets
 
-[PostCSS] plugin generated from https://github.com/postcss/postcss-plugin-boilerplate
+[PostCSS] plugin generated from following the steps listed in the boilerplate: https://github.com/postcss/postcss-plugin-boilerplate
 
-For tips, see: https://github.com/postcss/postcss/blob/main/docs/writing-a-plugin.md
-
-[postcss]: https://github.com/postcss/postcss
+For more general tips on creating your own custom PostCSS plugin, see: https://github.com/postcss/postcss/blob/main/docs/writing-a-plugin.md
 
 ```css
 .foo {
@@ -36,11 +34,11 @@ or
 yarn --dev add postcss postcss-coglang-stylesheets
 ```
 
-**Step 2:** Check you project for existed PostCSS config: `postcss.config.js`
+**Step 2:** Check your project for existing PostCSS config: `postcss.config.js`
 in the project root, `"postcss"` section in `package.json`
 or `postcss` in bundle config.
 
-If you do not use PostCSS, add it according to [official docs]
+If you do not use PostCSS, add it according to [official docs](https://github.com/postcss/postcss#usage)
 and set this plugin in settings.
 
 **Step 3:** Add the plugin to plugins list:
@@ -64,4 +62,10 @@ npm test
 npx clean-publish
 ```
 
-[official docs]: https://github.com/postcss/postcss#usage
+## Learn more about PostCSS
+
+https://github.com/hchiam/learning-postcss
+
+## CogLang?
+
+https://github.com/hchiam/cognateLanguage
