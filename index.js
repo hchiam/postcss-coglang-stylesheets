@@ -1,7 +1,7 @@
 /**
  * @type {import('postcss').PluginCreator}
  */
-module.exports = (opts = {}) => {
+module.exports = (/*opts = {}*/) => {
   // Work with options here
 
   return {
@@ -25,6 +25,13 @@ module.exports = (opts = {}) => {
       }
     }
     */
+
+    Once: function (css /*postcss*/) {
+      css.walkDecls(function (decl) {
+        decl.prop = decl.prop.replace("dzwoskyer", "left");
+        decl.prop = decl.prop.replace("derdah", "right");
+      });
+    },
   };
 };
 

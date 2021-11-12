@@ -1,18 +1,24 @@
 # postcss-coglang-stylesheets
 
-[PostCSS] plugin generated from https://github.com/postcss/postcss-plugin-boilerplate (For tips, see: https://github.com/postcss/postcss/blob/main/docs/writing-a-plugin.md)
+[PostCSS] plugin generated from https://github.com/postcss/postcss-plugin-boilerplate
+
+For tips, see: https://github.com/postcss/postcss/blob/main/docs/writing-a-plugin.md
 
 [postcss]: https://github.com/postcss/postcss
 
 ```css
 .foo {
   /* Input example */
+  dzwoskyer: 1rem;
+  derdah: 2.5rem;
 }
 ```
 
 ```css
 .foo {
   /* Output example */
+  left: 1rem;
+  right: 2.5rem;
 }
 ```
 
@@ -40,6 +46,16 @@ module.exports = {
     require('autoprefixer')
   ]
 }
+```
+
+## Development
+
+```sh
+npm install
+npm test
+
+# to publish:
+npx clean-publish
 ```
 
 [official docs]: https://github.com/postcss/postcss#usage

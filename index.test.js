@@ -10,10 +10,16 @@ async function run(input, output, opts = {}) {
   expect(result.warnings()).toHaveLength(0);
 }
 
-/* Write tests here
+describe("the plugin", () => {
+  it("runs at all", async () => {
+    await run("a{ }", "a{ }", {});
+  });
 
-it('does something', async () => {
-  await run('a{ }', 'a{ }', { })
-})
-
-*/
+  it("can translate stuff", async () => {
+    await run(
+      "a{ dzwoskyer: 1rem; derdah: 2.5rem; }",
+      "a{ left: 1rem; right: 2.5rem; }",
+      {}
+    );
+  });
+});
