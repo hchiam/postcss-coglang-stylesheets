@@ -1,6 +1,6 @@
 # postcss-coglang-stylesheets
 
-[PostCSS] plugin generated from https://github.com/postcss/postcss-plugin-boilerplate
+[PostCSS] plugin generated from https://github.com/postcss/postcss-plugin-boilerplate (For tips, see: https://github.com/postcss/postcss/blob/main/docs/writing-a-plugin.md)
 
 [postcss]: https://github.com/postcss/postcss
 
